@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "nombre": "BHD",
+    "personas": [
+      {
+        "id": 1,
+        "nombre": "Jean",
+        "apellido": "Perez",
+        "ciudad": "Santiago",
+        "cuenta": "corriente",
+        "numeroCuenta": "10010001"
+      },
+      {
+        "id": 2,
+        "nombre": "Anabel",
+        "apellido": "Gomez",
+        "ciudad": "La Vega",
+        "cuenta": "ahorro",
+        "numeroCuenta": "10010002"
+      },
+      {
+        "id": 3,
+        "nombre": "Mariel",
+        "apellido": "Pascual",
+        "ciudad": "Santo Domingo",
+        "cuenta": "corriente",
+        "numeroCuenta": "10010003"
+      },
+      {
+        "id": 4,
+        "nombre": "Alejandro",
+        "apellido": "Ventura Roca",
+        "ciudad": "Moca",
+        "cuenta": "corriente",
+        "numeroCuenta": "10010004"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Popular",
+    "personas": [
+      {
+        "id": 1,
+        "nombre": "Pedro",
+        "apellido": "Lopez",
+        "ciudad": "San Francisco de Macorís",
+        "cuenta": "corriente",
+        "numeroCuenta": "20020001"
+      },
+      {
+        "id": 2,
+        "nombre": "Maritza",
+        "apellido": "Gonzalez",
+        "ciudad": "Puerto Plata",
+        "cuenta": "ahorro",
+        "numeroCuenta": "20020002"
+      },
+      {
+        "id": 3,
+        "nombre": "Steven",
+        "apellido": "Price",
+        "ciudad": "La Romana",
+        "cuenta": "corriente",
+        "numeroCuenta": "20020003"
+      },
+      {
+        "id": 4,
+        "nombre": "Yoshira",
+        "apellido": "Vega Vargas",
+        "ciudad": "Santiago",
+        "cuenta": "ahorro",
+        "numeroCuenta": "20020004"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Banreservas",
+    "personas": [
+      {
+        "id": 1,
+        "nombre": "Jean",
+        "apellido": "Perez",
+        "ciudad": "La Vega",
+        "cuenta": "ahorro",
+        "numeroCuenta": "30030001"
+      },
+      {
+        "id": 2,
+        "nombre": "Kirsy",
+        "apellido": "Vega",
+        "ciudad": "Bonao",
+        "cuenta": "ahorro",
+        "numeroCuenta": "30030002"
+      },
+      {
+        "id": 3,
+        "nombre": "Alejandra",
+        "apellido": "Valdez",
+        "ciudad": "Santo Domingo",
+        "cuenta": "corriente",
+        "numeroCuenta": "30030003"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Banco Santa Cruz",
+    "personas": [
+      {
+        "id": 1,
+        "nombre": "Jessica",
+        "apellido": "Sanchez",
+        "ciudad": "San Cristóbal",
+        "cuenta": "corriente",
+        "numeroCuenta": "40040001"
+      },
+      {
+        "id": 2,
+        "nombre": "Sarah",
+        "apellido": "Parker",
+        "ciudad": "Jarabacoa",
+        "cuenta": "ahorro",
+        "numeroCuenta": "40040002"
+      },
+      {
+        "id": 3,
+        "nombre": "Jean",
+        "apellido": "Perez",
+        "ciudad": "Samaná",
+        "cuenta": "ahorro",
+        "numeroCuenta": "40040003"
+      }
+    ]
+  }
+]
