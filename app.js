@@ -9,7 +9,7 @@ import {cors} from 'cors';
 config();
 
 const app = express();
-const puerto = 3000;
+const puerto = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(cors());
