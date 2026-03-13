@@ -4,7 +4,7 @@ import version2 from './routes/version2.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { config } from 'dotenv';
-import {cors} from 'cors';
+import cors from 'cors';
 
 config();
 
