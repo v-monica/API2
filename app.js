@@ -5,6 +5,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { config } from 'dotenv';
 import cors from 'cors';
+import fs from "fs";
 
 config();
 
@@ -14,7 +15,14 @@ const puerto = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors());
 
-const users = [];
+function leerUsuarios() {
+  const data = fs.readFileSync("users.json");
+  return JSON.parse(data);
+}
+
+function guardarUsuarios(users) {
+  fs.writeFileSync("users.json", JSON.stringify(users, null, 2));
+}
 
 function verificarToken(req, res, next) {
 
@@ -59,6 +67,8 @@ app.post("/register", async (req, res) => {
 
   const { username, password } = req.body;
 
+  const users = leerUsuarios();
+
   const userExists = users.find(u => u.username === username);
 
   if (userExists) {
@@ -74,6 +84,8 @@ app.post("/register", async (req, res) => {
 
   users.push(newUser);
 
+  guardarUsuarios(users);
+
   res.status(201).send("Usuario registrado");
 
 });
@@ -81,6 +93,8 @@ app.post("/register", async (req, res) => {
 app.post("/login", async (req, res) => {
 
   const { username, password } = req.body;
+
+  const users = leerUsuarios();
 
   const user = users.find(u => u.username === username);
 
